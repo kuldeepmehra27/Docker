@@ -218,7 +218,7 @@ docker run -d --name mysqldb -e MYSQL_ROOT_PASSWORD=password mysql
 
 docker run -d --name drupal --link mysqldb -p 8080:80 -e MYSQL_USER:root -e MYSQL_PASSWORD:password drupal
 
-docker run --name phpmyadmin -d --link mysqldb:db -p 9090:80 phpmyadmin
+docker run -d --name phpmyadmin --link mysqldb:db -p 9090:80 phpmyadmin
 ```
 [Official reference](https://docs.docker.com/engine/reference/commandline/run/)
 
