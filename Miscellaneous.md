@@ -37,7 +37,7 @@ Docker runs processes in isolated containers. A container is a process that runs
 
 ### Microservices ##
 
-Microservices - also known as the microservice architecture - is an architectural style that structures an application as a collection of services that are
+[Microservices](https://www.redhat.com/en/topics/microservices/what-are-microservices) - also known as the microservice architecture - is an architectural style that structures an application as a collection of services that are
 
 * Highly maintainable and testable
 * Loosely coupled
@@ -47,8 +47,12 @@ Microservices - also known as the microservice architecture - is an architectura
 
 The microservice architecture enables the rapid, frequent and reliable delivery of large, complex applications. It also enables an organization to evolve its technology stack. For more details [visit here](https://microservices.io/).
 
-**Other reference**
 
-[What are microservices](https://www.redhat.com/en/topics/microservices/what-are-microservices)
+## References
+
+* [Official docker guide](https://docs.docker.com/)
+* [Docker cheat sheet](https://github.com/wsargent/docker-cheat-sheet)
+* [Geeks for geeks](https://www.geeksforgeeks.org/introduction-to-docker/)
+* [Docker compose lamp](https://github.com/harshalone/docker-compose-lamp)
 
 :house: [Home Page](README.md) | [<< Previous Page](Sample-Project.md)
