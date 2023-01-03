@@ -110,6 +110,8 @@ A Dockerfile is the starting point for creating a container image. It describes 
 **WHY:** To customize our container
 
 **Dockerfile** ==> *docker build* ==> **Docker image** ==> *docker run* ==> **Docker Container**
+	
+![Dockerfile](/images/dockerfile.png)
 
 ### Instructions / Commands
 
