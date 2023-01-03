@@ -21,6 +21,8 @@ Docker is a tool which is used by developer and operation teams to create and au
 
 ![This is an image](/images/docker-compose-example.png)
 
+[Other reference](https://www.baeldung.com/ops/docker-dockerfile-docker-compose)
+
 ### What is different between Docker and Docker-Swarm? ###
 
 You really can’t compare Docker with Docker swarm. Docker is a tool that enables you to use containers, where you could deploy applications into. You could think of it as a very lightweight virtual machine. Docker swarm on the other hand is an orchestration and clustering tool for Docker containers, it uses docker internally. Docker swarm comes in handy if you have dozens to thousands of containers. It manages and schedules these containers. It decides to which container it should route the current request to through load balancing and service discovery.
