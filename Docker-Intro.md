@@ -12,9 +12,8 @@
 Docker(docker) written in **GO** language : Docker compose(docker compose) written in **PYTHON**
 
 ## Docker
-Docker is an open source platform that enables developers to build, deploy, run, update and manage containers—standardized, executable components that combine application source code with the operating system (OS) libraries and dependencies required to run that code in any environment.
-
-[Docker official reference](https://docs.docker.com/get-started/overview/)
+Docker is an open source platform that enables developers to build, deploy, run, update and manage containers—standardized, executable components that combine application source code with the operating system (OS) libraries and dependencies required to run that code in any environment. For more detail
+[visit here](https://docs.docker.com/get-started/overview/){:target="_blank" rel="noopener"}.
 
 ### Docker technology ### 
 Docker technology consists of the runtime, engine and orchestrator
