@@ -21,7 +21,6 @@ Docker is a tool which is used by developer and operation teams to create and au
 
 ![This is an image](/images/docker-compose-example.png)
 
-[Other reference](https://www.baeldung.com/ops/docker-dockerfile-docker-compose)
 
 ### What is different between Docker and Docker-Swarm? ###
 
@@ -54,5 +53,6 @@ The microservice architecture enables the rapid, frequent and reliable delivery 
 * [Docker cheat sheet](https://github.com/wsargent/docker-cheat-sheet)
 * [Geeks for geeks](https://www.geeksforgeeks.org/introduction-to-docker/)
 * [Docker compose lamp](https://github.com/harshalone/docker-compose-lamp)
+* [Dockerfile & docker-compose](https://www.baeldung.com/ops/docker-dockerfile-docker-compose)
 
 :house: [Home Page](README.md) | [<< Previous Page](Sample-Project.md)
