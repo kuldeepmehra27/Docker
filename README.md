@@ -70,7 +70,9 @@ The things that container orchestration will do:
 
 ## Images
 
-An image is a read-only template with instructions for creating a Docker container.
+A Docker image is a read-only template that contains a set of instructions for creating a container that can run on the Docker platform. It provides a convenient way to package up applications and preconfigured server environments, which you can use for your own private use or share publicly with other Docker users. Docker images are also the starting point for anyone using Docker for the first time.
+	
+![Docker Image](/images/docker-image.png)
 
 ## Containers
 Containers are executable units of software in which application code is packaged, along with its libraries and dependencies, in common ways so that it can be run anywhere, whether it be on desktop, traditional IT, or the cloud.
