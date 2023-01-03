@@ -1,6 +1,22 @@
 
 ## Sample Project ##
 
+- **Create directory and clone below repository**
+
+  ```
+  mkdir DockerD10
+
+  cd DockerD10
+
+  git clone https://github.com/kuldeepmehra27/DockerD10.git
+  ```
+- **Run following command to create container**
+  ```
+  docker compose up -d .
+  ```
+
+[Repo Link](https://github.com/kuldeepmehra27/DockerD10)
+
 ### Lifecycle
 
 * [`docker create`](https://docs.docker.com/engine/reference/commandline/create) creates a container but does not start it.
