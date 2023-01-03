@@ -1,6 +1,7 @@
 ## Table of Contents
 
 * [Docker](#docker)
+* [Orchestration](#orchestration)
 * [Images](#images)
 * [Containers](#containers)
 * [Volumes](#volumes)
@@ -12,8 +13,8 @@
 Docker(docker) written in **GO** language : Docker compose(docker compose) written in **PYTHON**
 
 ## Docker
-Docker is an open source platform that enables developers to build, deploy, run, update and manage containers—standardized, executable components that combine application source code with the operating system (OS) libraries and dependencies required to run that code in any environment. For more detail
-[visit here](https://docs.docker.com/get-started/overview/){:target="_blank" rel="noopener"}.
+Docker is an open source platform that enables developers to build, deploy, run, update and manage containers—standardized, executable components that combine application source code with the operating system (OS) libraries and dependencies required to run that code in any environment. For more details
+[visit here](https://docs.docker.com/get-started/overview/).
 
 ### Docker technology ### 
 Docker technology consists of the runtime, engine and orchestrator
@@ -25,6 +26,20 @@ Docker technology consists of the runtime, engine and orchestrator
 * **Orchestrator:** Manging clusters (Swarns) of nodes running docker.
 
 ![Docker technology](/images/docker-technology.png)
+
+## Orchestration
+
+Container orchestration is the automation of much of the operational effort required to run containerized workloads and services. This includes a wide range of things software teams need to manage a container’s lifecycle, including provisioning, deployment, scaling (up and down), networking, load balancing and more.
+
+**References**
+
+* [Official docker orchestration](https://docs.docker.com/get-started/orchestration/)
+
+* [Other reference](https://avinetworks.com/glossary/container-orchestration/)
+
+* [Quick reference](https://www.redhat.com/en/topics/containers/what-is-container-orchestration)
+
+* [Why do we need container orchestration?](https://www.vmware.com/topics/glossary/content/container-orchestration.html)
 
 ## Images
 
@@ -60,8 +75,7 @@ Docker volumes are a widely used and useful tool for ensuring data persistence w
 
 ## Dockerfile
 
-A Dockerfile is the starting point for creating a container image. It describes an application and tells Docker how to build it into an image.
-[Official reference](https://docs.docker.com/engine/reference/builder/)
+A Dockerfile is the starting point for creating a container image. It describes an application and tells Docker how to build it into an image. For more details [visit here](https://docs.docker.com/engine/reference/builder/)
 
 **WHY:** To customize our container
 
@@ -148,7 +162,7 @@ CMD ["/usr/sbin/apachectl", "-D", "FOREGROUND"]
 
 ## Docker Compose
 
-Compose is a tool for defining and running multi-container Docker applications. With Compose, you use a YAML file to configure your application’s services. Then, with a single command, you create and start all the services from your configuration. To learn more about all the features of Compose, [Visit here](https://docs.docker.com/compose/compose-file/).
+Compose is a tool for defining and running multi-container Docker applications. With Compose, you use a YAML file to configure your application’s services. Then, with a single command, you create and start all the services from your configuration. To learn more about all the features of Compose [visit here](https://docs.docker.com/compose/compose-file/).
 
 **Example**
 ```
@@ -276,9 +290,7 @@ The -it flags will connect the current terminal window to the container's shell
 
 ### Play with Docker
 
-Play with Docker (PWD) provides a free-to-use fully functional Docker playground that lasts for 4 hours.
-
-[Play With Docker](https://labs.play-with-docker.com/)
+Play with Docker (PWD) provides a free-to-use fully functional Docker playground that lasts for 4 hours. For playing with docker [click here](https://labs.play-with-docker.com/)
 
 ## Miscellaneous
 
@@ -315,3 +327,18 @@ Docker Compose is used to run multiple containers as a single service. For examp
 
 Docker runs processes in isolated containers. A container is a process that runs on a host. The host may be local or remote. When an operator executes docker run, the container process that runs is isolated in that it has its own file system, its own networking, and its own isolated process tree separate from the host.
 
+### Microservices ##
+
+Microservices - also known as the microservice architecture - is an architectural style that structures an application as a collection of services that are
+
+* Highly maintainable and testable
+* Loosely coupled
+* Independently deployable
+* Organized around business capabilities
+* Owned by a small team
+
+The microservice architecture enables the rapid, frequent and reliable delivery of large, complex applications. It also enables an organization to evolve its technology stack. For more details [visit here](https://microservices.io/).
+
+**Other reference**
+
+[What are microservices](https://www.redhat.com/en/topics/microservices/what-are-microservices)
