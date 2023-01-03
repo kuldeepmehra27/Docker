@@ -265,7 +265,12 @@ volumes:
 
 * Remove old version of Docker
 ```
-$ sudo apt-get remove docker docker-engine docker.io containerd runc
+$ sudo apt-get purge docker-ce docker-ce-cli containerd.io docker-compose-plugin
+
+$ sudo rm -rf /var/lib/docker
+ 
+$ sudo rm -rf /var/lib/containerd
+
 ```
 * Installing Docker on Ubuntu
 ```
