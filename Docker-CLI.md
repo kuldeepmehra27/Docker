@@ -1,6 +1,6 @@
 ## Docker CLI ##
 
-1. **Docker run**
+**1. Docker run**
 
 **Syntax:** *docker run -d --name container_name -e image_params image_name*
 
@@ -14,7 +14,7 @@ docker run -d --name phpmyadmin --link mysqldb:db -p 9090:80 phpmyadmin
 ```
 [Official reference](https://docs.docker.com/engine/reference/commandline/run/)
 
-2. **Docker images**
+**2. Docker images**
  - Get all images
    ```
    docker images
@@ -26,7 +26,7 @@ docker run -d --name phpmyadmin --link mysqldb:db -p 9090:80 phpmyadmin
   ```
 
 
-3. **Docker process status**
+**3. Docker process status**
 
 - Get list of containers
 ```
@@ -41,13 +41,13 @@ docker ps -a
 docker container ls -a
 ```
 
-4. **Clear docker cache**
+**4. Clear docker cache**
 ```
 docker rmi $(docker images -a -q)
 docker system prune -a
 ```
 
-**Docker permission denied error (ubuntu)**
+**5. Docker permission denied error (ubuntu)**
 ```
 sudo chmod 666 /var/run/docker.sock
 sudo usermod -aG docker $USER
@@ -66,3 +66,6 @@ The -it flags will connect the current terminal window to the container's shell
 * [`docker run`](https://docs.docker.com/engine/reference/commandline/run) creates and starts a container in one operation.
 * [`docker rm`](https://docs.docker.com/engine/reference/commandline/rm) deletes a container.
 * [`docker update`](https://docs.docker.com/engine/reference/commandline/update/) updates a container's resource limits.
+
+
+:house: [Home Page](README.md) | [Next Page >>](Sample-Project.md)
