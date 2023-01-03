@@ -68,4 +68,4 @@ The -it flags will connect the current terminal window to the container's shell
 * [`docker update`](https://docs.docker.com/engine/reference/commandline/update/) updates a container's resource limits.
 
 
-:house: [Home Page](README.md) | [Next Page >>](Sample-Project.md)
+:house: [Home Page](README.md) | [<< Previous Page](README.md) | [Next Page >>](Sample-Project.md)
