@@ -8,7 +8,21 @@ $ docker --version
 $ docker compose version
 ```
 
+**Docker pull** 
+
+The 'docker pull' is a Docker command to download a Docker image or a repository locally on the host from a public or private registry. When we run any container and the specified Docker image is not present locally then it first pulls it from the registry. Most of the time images are downloaded from a public registry that is 'hub.docker.com' when we create our own custom Docker images as we use the official Docker image as a base image. For more details [visit here](https://www.educba.com/docker-pull/).
+
+**Syntax:** *docker pull [OPTIONS] NAME[:TAG|@DIGEST]*
+
+Example
+```
+$ docker pull ubuntu
+$ docker pull drupal
+```
+
 **1. Docker run** [Official reference](https://docs.docker.com/engine/reference/commandline/run/)
+
+The docker run command creates a container from a given image and starts the container using a given command. It is one of the first commands you should become familiar with when starting to work with Docker.
 
 **Syntax:** *docker run -d --name container_name -e image_params image_name*
 
