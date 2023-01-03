@@ -1,7 +1,7 @@
 
 ## Sample Project ##
 
-- **Create directory and clone below repository** [Repo Link](https://github.com/kuldeepmehra27/DockerD10)
+- **Clone repository** [Repo Link](https://github.com/kuldeepmehra27/DockerD10)
 
   ```
   $ git clone https://github.com/kuldeepmehra27/DockerD10.git
