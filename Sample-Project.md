@@ -6,6 +6,8 @@
   ```
   $ git clone https://github.com/kuldeepmehra27/DockerD10.git
   ```
+  **Note:** In above repository you can get details about *Dockerfile, docker-compose.yml & .env* files. I have already mentioned details of all files [in this section](https://github.com/kuldeepmehra27/Docker/blob/master/README.md).
+  
 - **Run following command to create container**
   ```
   $ cd DockerD10
