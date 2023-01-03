@@ -1,4 +1,5 @@
 ## Docker CLI ##
+[Official reference](https://docs.docker.com/engine/reference/commandline/docker/)
 
 **Check docker & docker compose version**
 ```
@@ -7,7 +8,7 @@ $ docker --version
 $ docker compose version
 ```
 
-**1. Docker run**
+**1. Docker run** [Official reference](https://docs.docker.com/engine/reference/commandline/run/)
 
 **Syntax:** *docker run -d --name container_name -e image_params image_name*
 
@@ -19,7 +20,6 @@ $ docker run -d --name drupal --link mysqldb -p 8080:80 -e MYSQL_USER:root -e MY
 
 $ docker run -d --name phpmyadmin --link mysqldb:db -p 9090:80 phpmyadmin
 ```
-[Official reference](https://docs.docker.com/engine/reference/commandline/run/)
 
 **2. Docker images**
  - Get all images
@@ -63,20 +63,40 @@ $ docker exec -it da5eecf752fa bash
 $ docker exec drupal10 ls
 ```
 
-**5. Clear docker cache**
+**5. Other useful commands**
+* Get the detail about container
+```
+  $ docker inspect container-name
+  $ docker inspect container-name 2>&1 | grep IPAddress
+```
+* Stop container
+```
+  $ docker stop container-name or container-id
+```
+* Remove container
+```
+  $ docker rm container-name or container-id
+```
+* Build command
+```
+$ docker build -t name_of_image .
+```
+* strconv.Atoi: parsing "": invalid syntax
+```
+$ docker compose down --remove-orphans
+```
+
+**6. Clear docker cache**
 ```
 $ docker rmi $(docker images -a -q)
 $ docker system prune -a
 ```
 
-**6. Docker permission denied error (ubuntu)**
+**7. Docker permission denied error (ubuntu)**
 ```
 $ sudo chmod 666 /var/run/docker.sock
 $ sudo usermod -aG docker $USER
 ```
-
-[Official reference](https://docs.docker.com/engine/reference/commandline/docker/)
-
 
 
 :house: [Home Page](README.md) | [<< Previous Page](README.md) | [Next Page >>](Sample-Project.md)
