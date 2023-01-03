@@ -49,7 +49,7 @@ MariaDB [(none)]> show databases;
 
 **Screentshots:** [Screenshots](Screenshots.md)
 
-We can install drupal using following commands **without Dockerfile & docker-compose.yml** file
+We can install drupal directly using following commands **without Dockerfile & docker-compose.yml** file
 ```
 $ docker run -d --name mysqldb -e MYSQL_ROOT_PASSWORD=password mysql
 
