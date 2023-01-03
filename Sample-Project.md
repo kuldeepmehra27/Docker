@@ -13,7 +13,7 @@
   $ cd DockerD10
   $ docker compose up -d
   ```
-After completion you need to open brower and paste this url **http://localhost:8000/web** now install drupal. In database step you need to fill *dbname, dbuser & dbpassword* **drupal10** and *host* **drupal10_db**.
+After completion you need to open brower and paste this url **http://localhost:8000/web** now install drupal. In database step you need to fill *dbname, dbuser & dbpassword* => **drupal10** and *host* => **drupal10_db**.
 
 For phpmyadmin you need to visit follow url **http://localhost:9000** *servername* **drupal10_db** *username & password* **drupal10**.
 
