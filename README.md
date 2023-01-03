@@ -7,6 +7,7 @@
 * [Volumes](#volumes)
 * [Dockerfile](#dockerfile)
 * [Docker-Compose](#docker-compose)
+* [Installing Docker](#installing-docker)
 * [Docker CLI](Docker-CLI.md)
 * [Sample Project D10](Sample-Project.md)
 * [Miscellaneous](Miscellaneous.md)
@@ -255,6 +256,49 @@ volumes:
   d_profiles:
   d_sites:
 ```
+
+## Installing Docker
+
+**1. Installing Docker on Ubuntu**
+
+* Remove old version of Docker
+```
+$ sudo apt-get remove docker docker-engine docker.io containerd runc
+```
+* Installing Docker on Ubuntu
+```
+$ sudo apt-get update
+ 
+$ sudo apt-get install \
+    ca-certificates \
+    curl \
+    gnupg \
+    lsb-release
+
+$ sudo mkdir -p /etc/apt/keyrings
+$ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+
+$ echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
+  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+  
+$ sudo apt-get update
+$ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+
+$ sudo groupadd docker
+$ sudo usermod -aG docker $USER
+```
+Check if docker is successfully installed in your system
+```
+$ sudo docker run hello-world
+```
+**Note:** For ubuntu desktop version [follow this guide](https://docs.docker.com/desktop/install/linux-install/)
+
+**2. Installing Docker on Mac**
+  [Follow official guide](https://docs.docker.com/desktop/install/mac-install/)
+	
+**3. Installing Docker on Windows**
+  [Follow official guide](https://docs.docker.com/desktop/install/windows-install/)
 
 ### Play with Docker
 
