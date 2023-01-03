@@ -297,7 +297,9 @@ $ sudo usermod -aG docker $USER
 ```
 Check if docker is successfully installed in your system
 ```
-$ sudo docker run hello-world
+$ systemctl start docker
+
+$ docker run hello-world
 ```
 **Note:** For ubuntu desktop version [follow this guide](https://docs.docker.com/desktop/install/linux-install/)
 
