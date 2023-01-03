@@ -38,7 +38,7 @@ MariaDB [(none)]> show databases;
 ```
 **Note: You can update db, port & container details in *docker-compose.yml* file.** Before that you need to stop and remove all the containers.
 
-**Few images description:**
+**Visit below url's for image details:**
 * [Drupal](https://hub.docker.com/_/drupal)
 * [MariaDB](https://hub.docker.com/_/mariadb)
 * [PHPMyadmin](https://hub.docker.com/_/phpmyadmin)
