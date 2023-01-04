@@ -135,7 +135,8 @@ A Dockerfile is the starting point for creating a container image. It describes 
 * [SHELL](https://docs.docker.com/engine/reference/builder/#shell) override default shell is used by docker to run commands.
 * [HEALTHCHECK](https://docs.docker.com/engine/reference/builder/#healthcheck) tells docker how to test a container to check that it is still working.
 
-[environment-replacement](https://docs.docker.com/engine/reference/builder/#environment-replacement)
+[click here](https://docs.docker.com/engine/reference/builder/#environment-replacement) to get more details about environment replacement.
+
 **Note:** Check this *[.env](https://github.com/kuldeepmehra27/DockerD10/blob/master/.env)* file for more details.
 
 **Example**
