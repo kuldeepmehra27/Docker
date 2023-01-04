@@ -1,5 +1,4 @@
-## Docker CLI ##
-[Official reference](https://docs.docker.com/engine/reference/commandline/docker/)
+## Docker CLI  **[Official reference](https://docs.docker.com/engine/reference/commandline/docker/)**
 
 **Check docker & docker compose version**
 ```
