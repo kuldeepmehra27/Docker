@@ -136,6 +136,7 @@ A Dockerfile is the starting point for creating a container image. It describes 
 * [HEALTHCHECK](https://docs.docker.com/engine/reference/builder/#healthcheck) tells docker how to test a container to check that it is still working.
 
 [environment-replacement](https://docs.docker.com/engine/reference/builder/#environment-replacement)
+**Note:** Check this *[.env](https://github.com/kuldeepmehra27/DockerD10/blob/master/.env)* file for more details.
 
 **Example**
 ```
@@ -193,6 +194,8 @@ RUN composer global require drush/drush
 
 CMD ["/usr/sbin/apachectl", "-D", "FOREGROUND"]
 ```
+**Note:** Check this *[Dockerfile](https://github.com/kuldeepmehra27/DockerD10/blob/master/Dockerfile)* for more details.	
+	
 ### Lifecycle
 
 * [`docker create`](https://docs.docker.com/engine/reference/commandline/create) creates a container but does not start it.
@@ -260,7 +263,8 @@ volumes:
   d_profiles:
   d_sites:
 ```
-
+**Note:** Check this *[docker-compose.yml](https://github.com/kuldeepmehra27/DockerD10/blob/master/docker-compose.yml)* file for more details.	
+	
 ## Installing Docker
 
 **1. Installing Docker on Ubuntu**
