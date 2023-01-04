@@ -308,7 +308,7 @@ $ systemctl start docker
 
 $ docker run hello-world
 ```
-**Note:** For ubuntu desktop version [follow this guide](https://docs.docker.com/desktop/install/linux-install/)
+**Note:** For ubuntu desktop version [Follow this guide](https://docs.docker.com/desktop/install/linux-install/)
 
 **2. Installing Docker on Mac**
   [Follow official guide](https://docs.docker.com/desktop/install/mac-install/)
