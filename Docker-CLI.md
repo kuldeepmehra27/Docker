@@ -2,7 +2,7 @@
 
 **Check docker & docker compose version**
 ```
-$ docker --version
+$ docker version
 
 $ docker compose version
 ```
