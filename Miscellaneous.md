@@ -1,5 +1,19 @@
 ## Miscellaneous ##
 
+### Docker Container Lifecyle ###
+
+| Purpose      | Command    | Meaning                               |
+| -------------|   :---:    |---------------------------------------|
+| Conception   | **build**  | **Build** an image from a Dockerfile  |
+| Birth        | **run**    | (create+start) a container            |
+| Reproduction | **commit** | (persist) a container to a new image  |
+|              | & **run**  | Run a new container from an image     |
+| Kill         | **kill**   | Kill a running container (SIGKILL)    |
+| Wake         | **start**  | Start a stopped container             |
+| Death        | **rm**     | Delete a stopped container            |
+| Extinction   | **rmi**    | Delete a container image              |
+
+
 ### What is the difference between Docker and Docker Compose? ###
 
 **Docker**
